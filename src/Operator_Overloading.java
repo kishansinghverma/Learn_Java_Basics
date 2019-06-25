@@ -10,7 +10,7 @@ public class Operator_Overloading {
 
         //int x=y=z=20;
         //y amd z not declared
-        
+
         byte b1=10;
         b1 += 10; //Implicit type Conversion
         System.out.println(b1);

@@ -9,7 +9,7 @@ public class Arithmatic_Operators {
         System.out.println(0.0/0);
         try {
             System.out.println(0 / 0);
-        }catch (ArithmeticException e){System.out.println("Arithmetic Exceptiom");}
+        }catch (ArithmeticException e){System.out.println("Arithmetic Exception");}
 
         try {
             System.out.println(10 / 0);
@@ -18,5 +18,7 @@ public class Arithmatic_Operators {
         //No Way to represent infinity in integer arithmetic,
         //but in floating point arithmetic there is a way to represent infinity in both the classes we have predefined constant
         //to represent infinity ie. +ive infinity and -ive infinity
+
+
     }
 }
