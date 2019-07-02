@@ -33,4 +33,5 @@ public class Final_Keyword {
         System.out.println(obj.a);
         System.out.println(Final_Keyword.x);
     }
+    /* final is rarely used as it violets the basic principal of oops and  */
 }
