@@ -5,6 +5,6 @@ public class StrictFP {
     //cant use with abstract methods
 
 }
-strictfp abstract class im{
+abstract class im{
     abstract void kishan();
 }
