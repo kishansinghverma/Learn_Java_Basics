@@ -1,6 +1,6 @@
 import java.lang.Class;
 public interface Interface_Basic {
-    //Marker Interface or Tagged Interface if no mehod declared in that
+    //Marker Interface or Tagged Interface if no method declared in that
     //which is used in Cloneable Object
 
     //100% abstraction

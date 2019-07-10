@@ -22,3 +22,16 @@ public class Arithmatic_Operators {
 
     }
 }
+
+class test5{
+    byte b;
+
+    public static void main(String[] args) {
+        test5 obj=new test5();
+        //obj.b=20*10 out of range
+        obj.b=20*2; // allowed for this range
+        byte c=2;
+        obj.b= (byte)(c*10); // type casting required
+        System.out.println(obj.b);
+    }
+}
