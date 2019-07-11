@@ -120,4 +120,34 @@ in interface we cant define static block and instance initialization block and a
 but can do it in abstract class
 */
 
+interface ib1{
+    default void func(){
+        System.out.println("Interface 1");
+    }
+    default void method(){
+        System.out.println("Can have more than one default");
+    }
+}
 
+interface ib2{
+    default void func1(){
+        System.out.println("Interface 2");
+    }
+}
+
+class cb1 implements ib1{
+    @Override
+    public void func() {
+        System.out.println("Running");
+    }
+
+    public static void main(String[] args) {
+        cb1 obj=new cb1();
+        obj.func();
+
+    }
+}
+
+class cb2 implements ib1, ib2{
+    //cannot have two method with same name inheriting from two interfaces
+}
